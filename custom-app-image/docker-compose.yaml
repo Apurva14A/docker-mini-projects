@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  my_app:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Path to your Dockerfile (if not in the root directory)
+      image: app-image:v1.0
