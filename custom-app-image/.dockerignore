@@ -1,0 +1,21 @@
+# Ignore specific files
+.DS_Store
+Thumbs.db
+
+# Ignore directories
+node_modules/
+__pycache__/
+.env
+
+# Ignore specific file types
+*.log
+*.tmp
+
+# Ignore build artifacts
+build/
+dist/
+*.pyc
+
+# Ignore version control files
+.git/
+.svn/
