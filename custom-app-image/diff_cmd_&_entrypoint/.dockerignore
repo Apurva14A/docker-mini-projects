@@ -1,0 +1,5 @@
+# Exclude everything 
+*
+
+# Include this
+!nginx.conf
